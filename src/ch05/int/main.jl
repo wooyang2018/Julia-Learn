@@ -1,8 +1,3 @@
-# 示例的演示文件。
-# - Julia version: 1.3.1
-# - Author: HaoLin
-# - Date: 2020-04-01
-
 # 一个数组，容纳了所有可以代表整数的原语类型。
 int_types = [Int8, Int16, Int32, Int64, Int128,
              UInt8, UInt16, UInt32, UInt64, UInt128]

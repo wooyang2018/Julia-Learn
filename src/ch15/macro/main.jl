@@ -1,8 +1,3 @@
-# 示例的演示文件。
-# - Julia version: 1.3.1
-# - Author: HaoLin
-# - Date: 2020-04-01
-
 # hey 是一个可以打印问候语的宏。
 macro hey(names::String...)
     :(println("Hey, $(join($names, ", ", " and "))."))
