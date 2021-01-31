@@ -7,6 +7,9 @@ code1 = """greeting = "Hey, Julia!" """
 expr1 = Meta.parse(code1)
 println("Expression 1: $(expr1) (type: $(typeof(expr1)))\n")
 
+"""
+You could use replace to change the ''s (which are used for chars) into "'s (which are used for strings) in the string before parsing it:
+"""
 code_err1 = "greeting = 'Hey, Julia!'"
 try
     Meta.parse(code_err1)
